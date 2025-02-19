@@ -285,6 +285,10 @@ body {
     text-align: center;
 }
 
+.card:hover {
+    transform: translateY(-10px);
+}
+
 .card2 svg {
     width: 70px;
     position: relative;
@@ -300,6 +304,10 @@ body {
     overflow: hidden;
     transition: transform 0.3s ease;
     text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
  .card-body {
      padding: 20px;
